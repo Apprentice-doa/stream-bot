@@ -137,7 +137,7 @@ python-dateutil==2.8.2
 python-multipart==0.0.7
 python-on-whales==0.69.0
 pytz==2023.3.post1
-#pywin32
+#pywin32==306
 PyYAML==6.0.1
 pyzmq==25.1.1
 referencing==0.30.2
@@ -174,7 +174,7 @@ tenacity==8.2.3
 tensorboard==2.13.0
 tensorboard-data-server==0.7.1
 tensorflow==2.13.0
-tensorflow-estimator==2.13.0
+tensorflow-estimator>=2.13.0
 tensorflow-intel==2.13.0
 tensorflow-io-gcs-filesystem==0.31.0
 termcolor==2.3.0
