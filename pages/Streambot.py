@@ -1,13 +1,13 @@
 import streamlit as st
 from openai import OpenAI
 
-st.title("Chat Assitant")
+st.set_page_config(page_title="Streambot", page_icon="🌍")
 
-title = st.text_input('Favourite courses')
-title = st.text_input('Do you like working independently or with company?')
-title = st.text_input('long term career goals')
-title = st.text_input('what inspires you')
-title = st.text_input('skills and talents')
+st.title("Streambot")
+
+
+st.sidebar.header("Streambot")
+
 # Set OpenAI API key from Streamlit secrets
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
