@@ -6,7 +6,7 @@ st.set_page_config(page_title="Streambot", page_icon="🌍")
 st.title("Streambot")
 
 
-st.sidebar.header("Streambot")
+#st.sidebar.header("Streambot")
 
 # Set OpenAI API key from Streamlit secrets
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
