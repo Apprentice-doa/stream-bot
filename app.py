@@ -3,6 +3,11 @@ from openai import OpenAI
 
 st.title("Chat Assitant")
 
+title = st.text_input('Favourite courses')
+title = st.text_input('Do you like working independently or with company?')
+title = st.text_input('long term career goals')
+title = st.text_input('what inspires you')
+title = st.text_input('skills and talents')
 # Set OpenAI API key from Streamlit secrets
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
