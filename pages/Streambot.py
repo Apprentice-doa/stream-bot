@@ -60,8 +60,7 @@ if prompt := st.chat_input("What is up?"):
         response = st.write_stream(stream)
     st.session_state.messages.append({"role": "assistant", "content": response})
 
-
-container = st.container()
-with container:
-    st.write("", style={"width": "100%", "text-align": "center"})
-    st.markdown("<h6 style='text-align: center; color: white;'>Developed by Codex. </h6>", unsafe_allow_html=True)
+    container = st.container()
+    with container:
+        st.write("", style={"width": "100%", "text-align": "center"})
+        st.markdown("<h6 style='text-align: center; color: white;'>Developed by Codex. </h6>", unsafe_allow_html=True)
