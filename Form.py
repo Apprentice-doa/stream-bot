@@ -16,3 +16,9 @@ title = st.text_input('what inspires you')
 title = st.text_input('skills and talents')
 
 st.button('Submit')
+
+container = st.container()
+
+with container:
+    st.write("", style={"width": "100%", "text-align": "center"})
+    st.markdown("<h6 style='text-align: center; color: white;'>Developed by Codex. </h6>", unsafe_allow_html=True)
