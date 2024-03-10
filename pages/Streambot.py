@@ -40,7 +40,7 @@ if prompt := st.chat_input("What is up?"):
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
     prompt_engineered_messages = [
-        # Assume the assistant persona with background in career guidance
+        # Assume the assistant persona with a background in career guidance
         {"role": "system", "content": "You are an AI knowledgeable in career advice for students and businesses. Don't give any infromation or response not within the framework of career advice for students and business"},
         *[
             {"role": m["role"], "content": m["content"]}
