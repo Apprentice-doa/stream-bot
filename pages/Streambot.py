@@ -8,7 +8,7 @@ st.title("Streambot")
 container = st.container()
 with container:
     st.write("", style={"width": "100%", "text-align": "center"})
-    st.markdown("<h6 style='text-align: center; color: white;'>Developed by Codex. </h6>", unsafe_allow_html=True)
+    st.markdown("<h6 style='text-align: center; color: white;'>Developed by Kelvin. </h6>", unsafe_allow_html=True)
 
 #st.sidebar.header("Streambot")
 
